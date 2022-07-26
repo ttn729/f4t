@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Navbar from './components/navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <h1>Hello!</h1>
+        <p>I'm Spicy Caterpillar, a chess player and computer scientist.
+          I grew up playing chess in a small city in America.</p>
+
+        <p>In my free time, I play chess and learn languages.</p>
+
+        <p>I spend a lot of time learning about chess, languages, and Taboo TV</p>
+
+      </div>
+    );
+  }
+
+
 }
 
 export default App;

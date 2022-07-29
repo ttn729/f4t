@@ -2,15 +2,16 @@ import React from "react";
 import Navbar from "../components/navbar";
 
 
-const Vocab = () => {
+const Books = () => {
     return (
         <div>
             <Navbar />
             <div className="wrapper">
-                <h1>Từ vựng mới</h1>
+                <h1>Số Đỏ</h1>
+                <p>Hi c Tủn</p>
             </div>
         </div>
     );
 };
 
-export default Vocab;
+export default Books;

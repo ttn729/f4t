@@ -1,9 +1,25 @@
 
 .navbar {
-    background-color: aqua;
-    text-align: right;
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8e8;
+    min-height: 55.95px;
+    position: relative;
+}
+
+.siteTitle {
+    font-size: xx-large;    
+    line-height: 54px;
+    margin-bottom: 0;
+    float: left;
+}
+
+.siteNav {
+    float: right;
+    line-height: 54px;
 }
 
 .link {
     padding: 20px;
+    text-decoration: none;
+    color: #111111;
 }

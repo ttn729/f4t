@@ -1,0 +1,25 @@
+.cardButtons {
+    float: left;
+    margin: 0 20px;
+}
+
+.cardButton {
+    display: flex;
+}
+
+.minusBox {
+    margin: 5px;
+    background-color: red;
+    border: none;
+}
+
+.plusBox {
+    margin: 5px;
+    background-color: #4CAF50;
+    border: none;
+}
+
+.cardName {
+    text-align: center;
+    width: 30px;
+}

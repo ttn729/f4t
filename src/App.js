@@ -11,7 +11,7 @@ class App extends Component {
 
         <div className='AppContent'>
           <div className='wrapper'>
-            <p>I'm Spicy Caterpillar, a chess player and computer scientist.</p>
+            <p>Hi I'm Spicy, a chess player and computer scientist.</p>
             <p>I grew up playing chess in a small city in America.</p>
             <p> In my free time, I enjoy practicing chess and playing Taboo TV.</p>
           </div>
